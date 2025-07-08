@@ -4,6 +4,8 @@ import FeatureGrid from '../components/FeatureGrid';
 import Footer from '../components/Footer';
 import Head from 'next/head';
 import ProductDemo from '../components/ProductDemo';
+import PricingSection from '../components/PricingSection';
+import FAQSection from '../components/FAQSection';
 
 export const metadata = {
   title: 'Rhiz – Relationship Intelligence Platform',
@@ -49,6 +51,8 @@ export default function HomePage() {
         <HeroSection />
         <FeatureGrid />
         <ProductDemo />
+        <PricingSection />
+        <FAQSection />
         <Footer />
       </main>
     </>
