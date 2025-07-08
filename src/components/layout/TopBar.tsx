@@ -16,7 +16,7 @@ export default function TopBar() {
           <Bell className="w-6 h-6" />
           <span className="absolute -top-1 -right-1 w-2 h-2 bg-rhiz-gold rounded-full"></span>
         </button>
-        <div className="w-9 h-9 rounded-full bg-rhiz-gray-200 flex items-center justify-center font-mont-semibold text-rhiz-teal">U</div>
+        <div className="w-9 h-9 rounded-full bg-rhiz-gray-200 flex items-center justify-center font-semibold text-rhiz-teal">U</div>
       </div>
     </header>
   );

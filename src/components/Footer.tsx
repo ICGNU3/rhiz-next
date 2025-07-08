@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <Globe className="w-8 h-8 text-rhiz-teal" />
-              <span className="font-mont-semibold text-2xl">Rhiz</span>
+              <span className="font-semibold text-2xl">Rhiz</span>
             </div>
             <p className="text-rhiz-gray-300 mb-4 max-w-md">
               Transform scattered contacts into a living graph of purpose and trust. 
@@ -31,7 +31,7 @@ export default function Footer() {
 
           {/* Product */}
           <div>
-            <h3 className="font-mont-semibold text-lg mb-4">Product</h3>
+            <h3 className="font-semibold text-lg mb-4">Product</h3>
             <ul className="space-y-2 text-rhiz-gray-300">
               <li><a href="#features" className="hover:text-rhiz-gold transition">Features</a></li>
               <li><a href="#pricing" className="hover:text-rhiz-gold transition">Pricing</a></li>
@@ -42,7 +42,7 @@ export default function Footer() {
 
           {/* Company */}
           <div>
-            <h3 className="font-mont-semibold text-lg mb-4">Company</h3>
+            <h3 className="font-semibold text-lg mb-4">Company</h3>
             <ul className="space-y-2 text-rhiz-gray-300">
               <li><a href="/about" className="hover:text-rhiz-gold transition">About</a></li>
               <li><a href="/blog" className="hover:text-rhiz-gold transition">Blog</a></li>

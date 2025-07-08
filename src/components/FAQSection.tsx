@@ -41,7 +41,7 @@ export default function FAQSection() {
     <section className="py-20 bg-rhiz-gray-50" aria-label="FAQ">
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-mont-semibold mb-4 text-rhiz-dark">
+          <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-rhiz-dark">
             Frequently Asked Questions
           </h2>
           <p className="text-lg text-rhiz-gray-600">
@@ -63,7 +63,7 @@ export default function FAQSection() {
                 onClick={() => toggleFAQ(index)}
                 className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-rhiz-gray-50 transition-colors"
               >
-                <h3 className="text-lg font-mont-semibold text-rhiz-dark pr-4">
+                <h3 className="text-lg font-semibold text-rhiz-dark pr-4">
                   {faq.question}
                 </h3>
                 <ChevronDown 
@@ -98,7 +98,7 @@ export default function FAQSection() {
           <p className="text-rhiz-gray-600 mb-4">
             Still have questions? We&apos;re here to help.
           </p>
-          <button className="bg-rhiz-teal text-white px-8 py-3 rounded-lg font-mont-semibold hover:bg-rhiz-gold hover:text-rhiz-dark transition-colors">
+          <button className="bg-rhiz-teal text-white px-8 py-3 rounded-lg font-semibold hover:bg-rhiz-gold hover:text-rhiz-dark transition-colors">
             Contact Support
           </button>
         </div>

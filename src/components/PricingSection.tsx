@@ -56,7 +56,7 @@ export default function PricingSection() {
     <section className="py-20 bg-white" aria-label="Pricing">
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-mont-semibold mb-4 text-rhiz-dark">
+          <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-rhiz-dark">
             Simple, Transparent Pricing
           </h2>
           <p className="text-lg text-rhiz-gray-600 max-w-2xl mx-auto">
@@ -80,16 +80,16 @@ export default function PricingSection() {
             >
               {plan.popular && (
                 <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-rhiz-teal text-white px-4 py-1 rounded-full text-sm font-mont-semibold">
+                  <span className="bg-rhiz-teal text-white px-4 py-1 rounded-full text-sm font-semibold">
                     Most Popular
                   </span>
                 </div>
               )}
               
               <div className="text-center mb-6">
-                <h3 className="text-2xl font-mont-semibold text-rhiz-dark mb-2">{plan.name}</h3>
+                <h3 className="text-2xl font-semibold text-rhiz-dark mb-2">{plan.name}</h3>
                 <div className="mb-2">
-                  <span className="text-4xl font-mont-semibold text-rhiz-teal">{plan.price}</span>
+                  <span className="text-4xl font-semibold text-rhiz-teal">{plan.price}</span>
                   {plan.period !== 'forever' && (
                     <span className="text-rhiz-gray-500 ml-1">/{plan.period}</span>
                   )}
@@ -107,7 +107,7 @@ export default function PricingSection() {
               </ul>
               
               <button
-                className={`w-full py-3 px-6 rounded-lg font-mont-semibold transition ${
+                className={`w-full py-3 px-6 rounded-lg font-semibold transition ${
                   plan.popular
                     ? 'bg-rhiz-teal text-white hover:bg-rhiz-gold hover:text-rhiz-dark'
                     : 'bg-rhiz-gray-100 text-rhiz-dark hover:bg-rhiz-teal hover:text-white'

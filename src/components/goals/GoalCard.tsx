@@ -10,8 +10,8 @@ export function GoalCard({ goal, onClick }: GoalCardProps) {
   return (
     <Card className="flex flex-col gap-2 cursor-pointer hover:shadow-lg transition" onClick={onClick}>
       <div className="flex items-center justify-between">
-        <div className="font-mont-semibold text-lg text-rhiz-teal">{goal.title}</div>
-        <span className="text-xs px-2 py-1 rounded bg-rhiz-gold text-rhiz-dark font-mont-medium">{goal.status}</span>
+        <div className="font-semibold text-lg text-rhiz-teal">{goal.title}</div>
+        <span className="text-xs px-2 py-1 rounded bg-rhiz-gold text-rhiz-dark font-medium">{goal.status}</span>
       </div>
       <div className="text-sm text-rhiz-gray-600">{goal.description}</div>
       <div className="text-xs text-rhiz-purple">Category: {goal.category}</div>

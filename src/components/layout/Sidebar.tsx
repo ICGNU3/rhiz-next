@@ -17,7 +17,7 @@ export default function Sidebar() {
   return (
     <aside className={`h-screen bg-rhiz-dark text-white flex flex-col transition-all duration-200 ${collapsed ? 'w-16' : 'w-56'}`}>
       <div className="flex items-center justify-between px-4 py-6">
-        <span className="font-mont-semibold text-lg">{!collapsed && 'Rhiz'}</span>
+        <span className="font-semibold text-lg">{!collapsed && 'Rhiz'}</span>
         <button onClick={() => setCollapsed(!collapsed)} className="text-rhiz-gold focus:outline-none">
           {collapsed ? '→' : '←'}
         </button>

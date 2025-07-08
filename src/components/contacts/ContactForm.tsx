@@ -4,13 +4,13 @@ import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Input } from '../ui/Input';
 import { Button } from '../ui/Button';
-import { Contact, CreateContactData } from '../../lib/types';
+import { CreateContactData } from '../../lib/types';
 
 const schema = z.object({
   name: z.string().min(1, 'Name is required'),
-  email: z.string().email().optional().or(z.literal('')),
-  company: z.string().optional().or(z.literal('')),
-  trust_score: z.number().min(0).max(100).default(0),
+  email: z.string().email('Invalid email'),
+  company: z.string(),
+  trust_score: z.number().min(0).max(100),
 });
 
 type FormData = z.infer<typeof schema>;

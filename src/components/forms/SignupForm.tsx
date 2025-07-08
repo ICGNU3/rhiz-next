@@ -1,5 +1,4 @@
 "use client";
-import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
@@ -17,7 +16,6 @@ const schema = z.object({
 type FormData = z.infer<typeof schema>;
 
 export default function SignupForm() {
-  const router = useRouter();
   const { register, handleSubmit, formState: { errors } } = useForm<FormData>({ resolver: zodResolver(schema) });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);

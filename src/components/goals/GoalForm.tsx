@@ -3,13 +3,13 @@ import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Input } from '../ui/Input';
 import { Button } from '../ui/Button';
-import { Goal, CreateGoalData } from '../../lib/types';
+import { CreateGoalData } from '../../lib/types';
 
 const schema = z.object({
   title: z.string().min(1, 'Title is required'),
-  description: z.string().optional().or(z.literal('')),
+  description: z.string(),
   category: z.string().min(1, 'Category is required'),
-  progress: z.number().min(0).max(100).default(0),
+  progress: z.number().min(0).max(100),
 });
 
 type FormData = z.infer<typeof schema>;

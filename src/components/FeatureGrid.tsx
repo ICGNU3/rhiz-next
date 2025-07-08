@@ -37,7 +37,7 @@ export default function FeatureGrid() {
               className="flex flex-col items-center p-8 rounded-xl shadow-md bg-rhiz-gray-50 hover:shadow-xl transition focus:outline-none focus:ring-2 focus:ring-rhiz-teal"
             >
               {f.icon}
-              <h3 className="mt-4 text-xl font-mont-semibold text-rhiz-dark">{f.title}</h3>
+              <h3 className="mt-4 text-xl font-semibold text-rhiz-dark">{f.title}</h3>
               <p className="mt-2 text-rhiz-gray-600 text-center">{f.desc}</p>
             </motion.div>
           ))}

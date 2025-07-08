@@ -18,10 +18,7 @@
 }
 
 body {
-  @apply font-mont bg-rhiz-gray-50 text-rhiz-dark;
+  @apply bg-gray-50 text-gray-900;
 }
 
-.font-mont-light { font-family: 'Montserrat', sans-serif; font-weight: 300; }
-.font-mont-regular { font-family: 'Montserrat', sans-serif; font-weight: 400; }
-.font-mont-medium { font-family: 'Montserrat', sans-serif; font-weight: 500; }
-.font-mont-semibold { font-family: 'Montserrat', sans-serif; font-weight: 600; } 
+ 

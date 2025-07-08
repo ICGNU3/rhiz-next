@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { Contact, CreateContactData } from '../lib/types';
+import { Contact } from '../lib/types';
 
 interface ContactFilters {
   search: string;

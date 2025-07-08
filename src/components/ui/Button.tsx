@@ -10,7 +10,7 @@ export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
   loading?: boolean;
 }
 
-const base = 'inline-flex items-center justify-center font-mont-semibold rounded-lg transition focus:outline-none focus:ring-2 focus:ring-rhiz-teal disabled:opacity-50';
+const base = 'inline-flex items-center justify-center font-semibold rounded-lg transition focus:outline-none focus:ring-2 focus:ring-rhiz-teal disabled:opacity-50';
 const variants = {
   primary: 'bg-rhiz-teal text-white hover:bg-rhiz-gold',
   secondary: 'bg-rhiz-purple text-white hover:bg-rhiz-gold',
