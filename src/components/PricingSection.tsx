@@ -60,7 +60,7 @@ export default function PricingSection() {
             Simple, Transparent Pricing
           </h2>
           <p className="text-lg text-rhiz-gray-600 max-w-2xl mx-auto">
-            Choose the plan that fits your relationship-building goals. Start free, upgrade when you're ready.
+            Choose the plan that fits your relationship-building goals. Start free, upgrade when you&apos;re ready.
           </p>
         </div>
         

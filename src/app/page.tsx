@@ -6,6 +6,7 @@ import Head from 'next/head';
 import ProductDemo from '../components/ProductDemo';
 import PricingSection from '../components/PricingSection';
 import FAQSection from '../components/FAQSection';
+import CTASection from '../components/CTASection';
 
 export const metadata = {
   title: 'Rhiz – Relationship Intelligence Platform',
@@ -53,6 +54,7 @@ export default function HomePage() {
         <ProductDemo />
         <PricingSection />
         <FAQSection />
+        <CTASection />
         <Footer />
       </main>
     </>

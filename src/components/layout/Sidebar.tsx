@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from 'react';
 import { Users, Target, Share2, BarChart2, Settings, Home } from 'lucide-react';
 import Link from 'next/link';
