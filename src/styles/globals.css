@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+:root {
+  --rhiz-teal: #2a9d8f;
+  --rhiz-purple: #8a7fbe;
+  --rhiz-gold: #e9c46a;
+  --rhiz-dark: #1a1a1a;
+  --rhiz-gray-50: #f8f9fa;
+  --rhiz-gray-100: #e9ecef;
+  --rhiz-gray-200: #dee2e6;
+  --rhiz-gray-300: #ced4da;
+  --rhiz-gray-400: #adb5bd;
+  --rhiz-gray-500: #6c757d;
+  --rhiz-gray-600: #495057;
+  --rhiz-gray-700: #343a40;
+  --rhiz-gray-800: #212529;
+  --rhiz-gray-900: #1a1a1a;
+}
+
+body {
+  @apply font-mont bg-rhiz-gray-50 text-rhiz-dark;
+}
+
+.font-mont-light { font-family: 'Montserrat', sans-serif; font-weight: 300; }
+.font-mont-regular { font-family: 'Montserrat', sans-serif; font-weight: 400; }
+.font-mont-medium { font-family: 'Montserrat', sans-serif; font-weight: 500; }
+.font-mont-semibold { font-family: 'Montserrat', sans-serif; font-weight: 600; } 
